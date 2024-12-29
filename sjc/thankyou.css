@@ -1,0 +1,74 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f3fc;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c3a2e7;
+    padding: 30px 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+.header-left h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-right .maps-btn {
+    background-color: #e9d3f8;
+    color: #5c2e91;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-right .maps-btn:hover {
+    background-color: #d1bef1;
+}
+
+/* Confirmation Box */
+.confirmation-box {
+    margin: 50px auto;
+    max-width: 400px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-box h2 {
+    color: #5c2e91;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.confirmation-box p {
+    color: #6a0dad;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.confirmation-box .train-icon {
+    font-size: 20px;
+}
+
+.confirmation-box h3 {
+    color: #5c2e91;
+    font-weight: bold;
+}

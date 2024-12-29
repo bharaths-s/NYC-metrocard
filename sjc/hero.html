@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro Card</title>
+    <link rel="stylesheet" href="hero.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>ನಮ್ಮ ಮೆಟ್ರೋ</h1>
+            <div class="user-icon">
+                
+            </div>
+        </header>
+
+        <!-- Balance Section -->
+        <section class="balance-section">
+            <div class="balance-card">
+                <div>
+                    <h2>Total Balance</h2>
+                    <p class="value">₹150</p>
+                </div>
+                <div>
+                    <h2>Remaining Passes</h2>
+                    <p class="value">10</p>
+                </div>
+            </div>
+           
+        </section>
+
+        <!-- History Section -->
+        <section class="history-section">
+            <h2>History</h2>
+            <div class="history-item">
+                <p><strong>6th Cross Malleshwaram, Bengaluru</strong></p>
+                <p>To: Yelahanka Old Town, Bengaluru</p>
+                <p>Payment: ₹20 | Distance: 15km</p>
+                <p>Date: 23 Nov 2024</p>
+            </div>
+            <div class="history-item">
+                <p><strong>Jalahalli, Bengaluru</strong></p>
+                <p>To: Kempe Gowda Bus Station, Bengaluru</p>
+                <p>Payment: ₹50 | Distance: 28km</p>
+                <p>Date: 23 Nov 2024</p>
+            </div>
+        </section>
+
+        <!-- Recharge Section -->
+        <section class="recharge-section">
+            <h2>Recharge</h2>
+            <form>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="recharge-type" value="renewal" checked> Renewal
+                    </label>
+                   <label>
+                        <input type="radio" name="recharge-type" value="new-card" onclick="location.href='renew.html';">
+                         New Card
+                    </label>
+
+                </div>
+                <input type="text" placeholder="Mobile Number/Card Number" class="input-field">
+                <div class="date-group">
+                    <input type="date" placeholder="From" class="input-field">
+                    <input type="date" placeholder="To" class="input-field">
+                </div>
+                <select class="input-field">
+                    <option>Select Recharge Plans</option>
+                    <option>Plan 1</option>
+                    <option>Plan 2</option>
+                </select>
+                <button type="submit" class="btn">Continue</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

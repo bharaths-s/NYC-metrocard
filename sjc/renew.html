@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recharge</title>
+    <link rel="stylesheet" href="renew.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">ನಮ್ಮ ಮೆಟ್ರೋ</div>
+            <div class="header-icons">
+                <a href="simple.html">
+                    <button class="icon-btn">🔔</button>
+                  </a>
+                <button class="icon-btn">👤</button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <h1 class="title">New Card</h1>
+            <div class="recharge-form">
+                <form>
+                    
+
+                    <div class="form-group">
+                        <label for="mobile-number">Mobile Number/Card Number</label>
+                        <input type="text" id="mobile-number" placeholder="XXXX XXXX XXXX">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" placeholder="Last Name">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="from-date">From</label>
+                            <input type="date" id="from-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="to-date">To</label>
+                            <input type="date" id="to-date">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="recharge-plan">Select Recharge Plans</label>
+                        <select id="recharge-plan">
+                            <option value="" disabled selected>Select a plan</option>
+                            <option value="plan1">Plan 1</option>
+                            <option value="plan2">Plan 2</option>
+                            <option value="plan3">Plan 3</option>
+                        </select>
+                    </div>
+
+                    <button class="btn">
+                        <a href="pay.html" style="text-decoration: none; color: inherit;">Continue</a>
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

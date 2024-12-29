@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f1f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9b59b6;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(logo.png);
+    
+}
+
+/* Balance Section */
+.balance-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcd6f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.balance-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.balance-card div {
+    margin-bottom: 10px;
+}
+
+.value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.metro-image {
+    width: 150px;
+    height: auto;
+}
+
+/* History Section */
+.history-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.history-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.history-item:last-child {
+    border-bottom: none;
+}
+
+/* Recharge Section */
+.recharge-section {
+    background-color: #dcd6f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.recharge-section h2 {
+    margin-bottom: 15px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.date-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #9b59b6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8e44ad;
+}

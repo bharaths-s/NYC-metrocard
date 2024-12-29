@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f3ff;
+  background-image: url(back.jpg);
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9c7f3;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #5d3ea8;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.header-btn {
+  background-color: white;
+  border: 1px solid #a287c4;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #5d3ea8;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.header-btn:hover {
+  background-color: #b5a6d6;
+}
+
+.maps-btn {
+  position: relative;
+  padding-right: 30px;
+}
+
+.maps-btn::after {
+  content: '📍';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main-content {
+  padding: 20px;
+  margin-top: 120px;
+}
+
+.title {
+  font-size: 52px;
+  color: #5d3ea8;
+  text-shadow: 1px 1px #aaa;
+  margin-bottom: 20px;
+}
+
+.train img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #5d3ea8;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
